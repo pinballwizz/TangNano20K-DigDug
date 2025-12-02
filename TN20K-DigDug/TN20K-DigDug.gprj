@@ -1,0 +1,43 @@
+<?xml version="1" encoding="UTF-8"?>
+<!DOCTYPE gowin-fpga-project>
+<Project>
+    <Template>FPGA</Template>
+    <Version>5</Version>
+    <Device name="GW2AR-18C" pn="GW2AR-LV18QN88C8/I7">gw2ar18c-000</Device>
+    <FileList>
+        <File path="src/DIGDUG_CORES.v" type="file.verilog" enable="1"/>
+        <File path="src/DIGDUG_CUSIO.v" type="file.verilog" enable="1"/>
+        <File path="src/DIGDUG_IODEV.v" type="file.verilog" enable="1"/>
+        <File path="src/DIGDUG_SPRITE.v" type="file.verilog" enable="1"/>
+        <File path="src/DIGDUG_VIDEO.v" type="file.verilog" enable="1"/>
+        <File path="src/FPGA_DIGDUG.v" type="file.verilog" enable="1"/>
+        <File path="src/HVGEN.v" type="file.verilog" enable="1"/>
+        <File path="src/cpu/tv80_alu.v" type="file.verilog" enable="1"/>
+        <File path="src/cpu/tv80_core.v" type="file.verilog" enable="1"/>
+        <File path="src/cpu/tv80_mcode.v" type="file.verilog" enable="1"/>
+        <File path="src/cpu/tv80_reg.v" type="file.verilog" enable="1"/>
+        <File path="src/cpu/tv80s.v" type="file.verilog" enable="1"/>
+        <File path="src/cpucore.v" type="file.verilog" enable="1"/>
+        <File path="src/dpram.v" type="file.verilog" enable="1"/>
+        <File path="src/dprams.v" type="file.verilog" enable="1"/>
+        <File path="src/scandoubler_new.v" type="file.verilog" enable="1"/>
+        <File path="src/wsg.v" type="file.verilog" enable="1"/>
+        <File path="proms/bgchip_rom.vhd" type="file.vhdl" enable="1"/>
+        <File path="proms/bgclut_rom.vhd" type="file.vhdl" enable="1"/>
+        <File path="proms/bgscrn_rom.vhd" type="file.vhdl" enable="1"/>
+        <File path="proms/cpu0_rom.vhd" type="file.vhdl" enable="1"/>
+        <File path="proms/cpu1_rom.vhd" type="file.vhdl" enable="1"/>
+        <File path="proms/cpu2_rom.vhd" type="file.vhdl" enable="1"/>
+        <File path="proms/fgchip_rom.vhd" type="file.vhdl" enable="1"/>
+        <File path="proms/palette_rom.vhd" type="file.vhdl" enable="1"/>
+        <File path="proms/spchip_rom.vhd" type="file.vhdl" enable="1"/>
+        <File path="proms/spclut_rom.vhd" type="file.vhdl" enable="1"/>
+        <File path="proms/wave_rom.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/TN20K-DigDug.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/dac.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/gowin_rpll48.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/io_ps2_keyboard.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/kbd_joystick.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/TN20K-DigDug.cst" type="file.cst" enable="1"/>
+    </FileList>
+</Project>
